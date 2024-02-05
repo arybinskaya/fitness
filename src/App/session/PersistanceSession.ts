@@ -1,4 +1,4 @@
-const namespace = "heaulthyStorage";
+const namespace = "fitnessStorage";
 
 export const deserializeStore = () => {
   const store = localStorage.getItem(namespace);

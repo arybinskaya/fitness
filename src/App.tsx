@@ -1,6 +1,6 @@
-import { AppRoutes } from "./App/routes/AppRoutes";
-import { SessionProvider } from "./App/session";
 import QueryClientProvider from "./App/service/QueryClientProvider";
+import { SessionProvider } from "./App/session";
+import { AppRoutes } from "./App/routes/AppRoutes";
 
 const App = () => {
   return (

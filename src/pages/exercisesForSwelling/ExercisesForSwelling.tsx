@@ -16,7 +16,7 @@ const ExercisesForSwelling = () => {
       >
         <Box
           sx={{
-            maxWidth: 1440,
+            maxWidth: 900,
           }}
         >
           <h1>А может это не жир? Комплексы от оттеков</h1>

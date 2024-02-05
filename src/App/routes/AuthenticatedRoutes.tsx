@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { authenticatedRoutes, generateRoutePath } from "./helpers";
 import { RouteConfig, RouteName } from "./Interface";
-import { Layout } from "../../layout";
+import { Layout } from "../../layout/Layout";
 
 export function AuthenticatedRoutes(): JSX.Element {
   return (

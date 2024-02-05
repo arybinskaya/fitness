@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import Header from "../header/Header";
+import Header from "../main/header/Header";
 import styles from "./Psychology.module.css";
 
 const Psychology = () => {
@@ -16,7 +16,7 @@ const Psychology = () => {
       >
         <Box
           sx={{
-            maxWidth: 1440,
+            maxWidth: 900,
           }}
         >
           <h1>Психология похудения</h1>

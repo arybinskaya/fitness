@@ -19,7 +19,7 @@ client.interceptors.request.use(
   (config: AxiosRequestConfig) => {
     const token = storage.get(ACCESS_TOKEN);
     if (token) {
-      (config.headers as AxiosRequestHeaders).Authorization = `Bearer ${token}`;
+      (config.headers as AxiosRequestHeaders).Authorization = `${token}`;
     }
     return config;
   },

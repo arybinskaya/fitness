@@ -1,5 +1,4 @@
 import { BrowserRouter as Router } from "react-router-dom";
-
 import { useSession } from "../session/Session";
 import { UnauthenticatedRoutes } from "./UnauthenticatedRoutes";
 import { AuthenticatedRoutes } from "./AuthenticatedRoutes";

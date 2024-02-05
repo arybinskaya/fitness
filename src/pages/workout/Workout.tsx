@@ -16,7 +16,7 @@ const Workout = () => {
       >
         <Box
           sx={{
-            maxWidth: 1440,
+            maxWidth: 900,
           }}
         >
           <h1>Тренировки</h1>

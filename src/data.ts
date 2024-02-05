@@ -12,16 +12,16 @@ export type TUser = {
 
 const admin: TUser = {
   id: 1,
-  name: "admin",
+  name: "Sanechka",
   role: Role.ADMIN,
-  password: "admin",
+  password: "Sanechka",
 };
 
 const user: TUser = {
   id: 2,
-  name: "user",
+  name: "Vanechka",
   role: Role.USER,
-  password: "user",
+  password: "Vanechka",
 };
 
 export const users: TUser[] = [admin, user];
